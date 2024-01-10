@@ -1,0 +1,174 @@
+@font-face {
+    font-family: f1;
+    src: url(font/CircularSp-Bold-fe1cfc14b7498b187c78fa72fb72d148.woff2);
+}
+
+@font-face {
+    font-family: f2;
+    src: url(font/CircularSp-Book-4eaffdf96f4c6f984686e93d5d9cb325.woff2);
+}
+
+@font-face {
+    font-family: f3;
+    src: url(font/CircularSpTitle-Black-3f9afb402080d53345ca1850226ca724.woff2);
+}
+
+@font-face {
+    font-family: f4;
+    src: url(font/CircularSpTitle-Bold-2fbf72b606d7f0b0f771ea4956a8b4d6.woff2);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.main {
+    text-align: center;
+        min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(180deg, #232323, #000000);
+}
+
+.nav {
+    background-color: #000000;
+    padding: 1.9rem;
+}
+
+.nav img {
+    width: 133%;
+    padding-left: 3rem;
+    filter: invert(1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    background-color: #000000;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+form h1 {
+    margin: 0rem 12rem;
+    margin-top: 3.5rem;
+    color: #fff;
+    font-size: 2.7rem;
+    font-family: f1;
+}
+
+.form-a1 {
+    margin-top: 3rem;
+}
+
+.form-a {
+    margin-bottom: 0.5rem;
+    padding: 0.6rem 2rem;
+    min-width: 40%;
+    font-family: f1;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 50px;
+    border: 1px solid #505050;
+    text-decoration: none;
+    color: #fff;
+}
+
+.form-cont {
+    width: 100%;
+    min-height: calc(100% - 10rem);
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.line {
+    height: 1px;
+    width: 70%;
+    background-color: #3c3c3c;
+    margin: 2rem 0;
+}
+
+ label{
+    font-family: f1;
+    min-width:40%;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #fff;    
+    margin: 0.6rem;
+}
+
+.input1{
+    color: #fff;
+    font-family: f1;
+    background-color: #121212;
+    min-width: 40%;
+    border: 1px solid #3c3c3c;
+    padding: 0.6rem ;
+    border-radius: 0.2rem;
+}
+
+.checKbox{
+    min-width: 40%;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.chec-input{
+    transition: all 0.1s ease 0s;
+}
+
+form button{
+    width: 40%;
+    padding: 0.8rem;
+    border-radius: 50px;
+    border: 0;
+    background-color: #1FDF64;
+    color: #000;
+    font-family: f1;
+    margin: 2rem;
+}
+
+.line2{
+    height: 1px;
+    width: 70%;
+    background-color: #3c3c3c;
+    margin: 2rem 0;
+}
+
+.a-1{
+    padding-bottom: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    font-family: f1;
+}
+.a-2{
+   margin: 2rem 0;
+    font-family: f1;
+    color: #3c3c3c;
+    text-decoration: none;
+}
+.a-2 span{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.main p{
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    color: #515151;
+}
